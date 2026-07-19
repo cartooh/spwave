@@ -42,8 +42,14 @@ git push cartooh v0.9.0-1
   ([THIRD-PARTY-LICENSES.txt](THIRD-PARTY-LICENSES.txt) 参照)
 - 以下のプラグインは SDK・エンジンのライセンスが別条件のため `dist/` には
   含めていません(WAV 等の基本的な再生・編集には影響しません)。
-  必要な場合は[公式の spPlugin パッケージ](https://www-ie.meijo-u.ac.jp/~banno/spLibs/index-j.html)から取得し、`plugins\` フォルダにコピーしてください。
   - Monkey's Audio(input/output_monkey.dll)
   - Windows Media Audio(input/output_wma.dll)
   - ASIO ドライバ対応(asio.dll — Steinberg ASIO SDK)
   - MP3 読み込み(input_mpeg.dll — FreeAmp/Zinf 由来エンジン, GPL系)
+
+  これらの DLL は、[spLibs のページ](https://www-ie.meijo-u.ac.jp/~banno/spLibs/index-j.html)で配布されている
+  **spPlugin の Windows バイナリパッケージ**(例:
+  [spPlugin-0.8.6-4.win64.zip](https://www-ie.meijo-u.ac.jp/~banno/archive/spPlugin-0.8.6-4.win64.zip))の
+  `plugins` フォルダにすべて同梱されています(ページ上に ASIO 等の個別の記載はありません)。
+  必要な DLL を取り出して spwave.exe と同じ場所の `plugins\` フォルダに
+  コピーすると有効になります。
