@@ -1,0 +1,54 @@
+Required Libraries for Compilation
+----------------------------------
+* spLibs (http://www.itakura.nuee.nagoya-u.ac.jp/people/banno/spLibs/)
+  - spBase 0.8.9 or higher
+  - spLib 0.8.3 or higher
+  - spAudio 0.7.5 or higher
+  - spComponent 0.6.5 or higher
+
+* Operating System or Toolkit
+  - Windows ... Windows Vista or higher (development environment: Visual C++)
+  - macOS (10.6 - 10.14) ... Mac OS X 10.6 or higher (development environment: xcode)
+  - Motif ... Version 1.2.X or higher
+  - gtk ... Version 2.X or 3.X
+
+
+How to Compile
+--------------
+How to compile on UNIX (including Linux or Cygwin) is as follows.
+Go to the spwave top directory, and make a symbolic link from 
+`include' directory and `lib' directory of spLibs 
+(e.g. /usr/local/include and /usr/local/lib):
+
+ % cd spwave-X.X.X
+ % ln -s /usr/local/include
+ % ln -s /usr/local/lib
+
+If your platform is supported by the configuration file of spBase, you can
+build executable binary by typing `make' in the source directory:
+
+ % cd spwave
+ % make
+
+To install this binary to your system directory (e.g /usr/local), login as
+root and type:
+
+ # make SPDESTROOT=/usr/local install
+
+If you don't want to make a symbolic link from spLibs directory, you can
+compile and install by adding TOP=/usr/local option (/usr/local is top
+directory of spLibs) to the above command line of `make' such as:
+
+ % cd spwave-X.X.X
+ % cd spwave
+ % make TOP=/usr/local
+ % su
+ # make TOP=/usr/local SPDESTROOT=/usr/local install
+
+By default, the gtk version is selected forcedly on Linux, so compiling the
+Motif version on Linux requires USE_MOTIF=y option against `make'
+command.  If you want to compile on Windows or macOS, you have to find out
+how to compile spwave by yourself :-)
+
+
+Hideki BANNO

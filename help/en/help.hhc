@@ -1,0 +1,674 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Auto Generated" value="Yes">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="spwave User's Guide">
+		<param name="Local" value="index2.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="About spwave">
+		<param name="Local" value="about/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Introduction">
+			<param name="Local" value="about/main.html#introduction">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Features">
+			<param name="Local" value="about/main.html#features">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Supported Files">
+			<param name="Local" value="about/main.html#formats">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Install">
+			<param name="Local" value="about/main.html#install">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Supported Platforms">
+			<param name="Local" value="about/main.html#platforms">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Bugs">
+			<param name="Local" value="about/main.html#bugs">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Bug Report">
+			<param name="Local" value="about/main.html#bug_report">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="License">
+			<param name="Local" value="about/main.html#license">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Official Site">
+			<param name="Local" value="about/main.html#official_site">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Thanks To">
+			<param name="Local" value="about/main.html#thanks_to">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How To Compile">
+			<param name="Local" value="about/compile.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Operation">
+		<param name="Local" value="operation/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Basic Operation">
+			<param name="Local" value="operation/basic.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Execution">
+				<param name="Local" value="operation/basic.html#execution">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Window">
+				<param name="Local" value="operation/basic.html#window">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Opening Files">
+				<param name="Local" value="operation/basic.html#file_open">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Saving Files">
+				<param name="Local" value="operation/basic.html#file_save">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="File Formats">
+				<param name="Local" value="operation/basic.html#format">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Region">
+				<param name="Local" value="operation/basic.html#region">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Playing Files">
+				<param name="Local" value="operation/basic.html#file_play">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Editing Files">
+				<param name="Local" value="operation/basic.html#file_edit">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Moving View">
+				<param name="Local" value="operation/basic.html#movement">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Overview Area">
+				<param name="Local" value="operation/basic.html#overview">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Labels">
+				<param name="Local" value="operation/basic.html#label">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Using spwave">
+			<param name="Local" value="operation/using.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Cropping">
+				<param name="Local" value="operation/using.html#crop">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Conversion">
+				<param name="Local" value="operation/using.html#conversion">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Clipboard">
+				<param name="Local" value="operation/using.html#clipboard">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Compare">
+				<param name="Local" value="operation/using.html#compare">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Analysis">
+				<param name="Local" value="operation/using.html#analysis">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Command-Line Options">
+			<param name="Local" value="operation/options.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FAQ">
+		<param name="Local" value="faq/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FAQ List">
+			<param name="Local" value="faq/faq.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Install Related">
+				<param name="Local" value="faq/faq.html#faq_install">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Environment Dependent">
+				<param name="Local" value="faq/faq.html#faq_environmental">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="File Related">
+				<param name="Local" value="faq/faq.html#faq_file">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Operation">
+				<param name="Local" value="faq/faq.html#faq_operation">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Requests and Others">
+				<param name="Local" value="faq/faq.html#faq_request">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Install Related">
+			<param name="Local" value="faq/install.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Environment Dependent">
+			<param name="Local" value="faq/environmental.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="File Related">
+			<param name="Local" value="faq/file.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Operation">
+			<param name="Local" value="faq/operation.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Requests and Others">
+			<param name="Local" value="faq/request.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Menu Reference">
+		<param name="Local" value="menu/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Menu List">
+			<param name="Local" value="menu/list.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="File Menu">
+			<param name="Local" value="menu/file_menu.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Open...">
+				<param name="Local" value="menu/file_menu.html#file_open">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Open New...">
+				<param name="Local" value="menu/file_menu.html#file_open_new">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Generate...">
+				<param name="Local" value="menu/file_menu.html#file_generate">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Save">
+				<param name="Local" value="menu/file_menu.html#file_save">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Save As...">
+				<param name="Local" value="menu/file_menu.html#file_save_as">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Label">
+				<param name="Local" value="menu/file_menu.html#file_label">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Property...">
+				<param name="Local" value="menu/file_menu.html#file_property">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Print Target">
+				<param name="Local" value="menu/file_menu.html#file_print_target">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Page Setup...">
+				<param name="Local" value="menu/file_menu.html#file_page_setup">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Print...">
+				<param name="Local" value="menu/file_menu.html#file_print">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Close">
+				<param name="Local" value="menu/file_menu.html#file_close">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Exit">
+				<param name="Local" value="menu/file_menu.html#file_exit">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Edit Menu">
+			<param name="Local" value="menu/edit_menu.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Undo">
+				<param name="Local" value="menu/edit_menu.html#edit_undo">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Redo">
+				<param name="Local" value="menu/edit_menu.html#edit_redo">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Crop">
+				<param name="Local" value="menu/edit_menu.html#edit_crop">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Delete">
+				<param name="Local" value="menu/edit_menu.html#edit_delete">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Erase">
+				<param name="Local" value="menu/edit_menu.html#edit_erase">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Extract">
+				<param name="Local" value="menu/edit_menu.html#edit_extract">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Extract and Autosave">
+				<param name="Local" value="menu/edit_menu.html#edit_extract_autosave">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Cut">
+				<param name="Local" value="menu/edit_menu.html#edit_cut">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Copy">
+				<param name="Local" value="menu/edit_menu.html#edit_copy">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Concatenate to Tail">
+				<param name="Local" value="menu/edit_menu.html#edit_concat">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Concatenate to Head">
+				<param name="Local" value="menu/edit_menu.html#edit_concat_top">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Clipboard Window...">
+				<param name="Local" value="menu/edit_menu.html#edit_clipboard_window">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Amplify...">
+				<param name="Local" value="menu/edit_menu.html#edit_amplify">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Invert">
+				<param name="Local" value="menu/edit_menu.html#edit_invert">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Fade In">
+				<param name="Local" value="menu/edit_menu.html#edit_fade_in">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Fade Out">
+				<param name="Local" value="menu/edit_menu.html#edit_fade_out">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Channel Swap">
+				<param name="Local" value="menu/edit_menu.html#edit_channel_swap">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Bits/Sample Conversion...">
+				<param name="Local" value="menu/edit_menu.html#edit_bit_conv">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sampling Frequency Conversion...">
+				<param name="Local" value="menu/edit_menu.html#edit_samp_freq_conv">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Monauralize">
+				<param name="Local" value="menu/edit_menu.html#edit_monauralize">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Filtering...">
+				<param name="Local" value="menu/edit_menu.html#edit_filtering">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="File Metadata...">
+				<param name="Local" value="menu/edit_menu.html#edit_metadata">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Preference...">
+				<param name="Local" value="menu/edit_menu.html#preference">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Preference of Analysis...">
+				<param name="Local" value="menu/edit_menu.html#analysis_preference">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Page Menu">
+			<param name="Local" value="menu/page_menu.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Forward">
+				<param name="Local" value="menu/page_menu.html#page_forward">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Backward">
+				<param name="Local" value="menu/page_menu.html#page_backward">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Head">
+				<param name="Local" value="menu/page_menu.html#page_go_head">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Tail">
+				<param name="Local" value="menu/page_menu.html#page_go_tail">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Next Window">
+				<param name="Local" value="menu/page_menu.html#page_next">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Previous Window">
+				<param name="Local" value="menu/page_menu.html#page_previous">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Align">
+				<param name="Local" value="menu/page_menu.html#page_align">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Select">
+				<param name="Local" value="menu/page_menu.html#page_select">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Select All">
+				<param name="Local" value="menu/page_menu.html#page_select_all">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Select Same Region">
+				<param name="Local" value="menu/page_menu.html#page_select_all_region">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Select Next Channel">
+				<param name="Local" value="menu/page_menu.html#page_select_next_channel">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="View Menu">
+			<param name="Local" value="menu/view_menu.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zoom In">
+				<param name="Local" value="menu/view_menu.html#view_zoom_in">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zoom Out">
+				<param name="Local" value="menu/view_menu.html#view_zoom_out">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zoom Full Out">
+				<param name="Local" value="menu/view_menu.html#view_zoom_full_out">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zoom Region">
+				<param name="Local" value="menu/view_menu.html#view_bracket_marks">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Time Format">
+				<param name="Local" value="menu/view_menu.html#view_time">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zoom In Vertical Axis">
+				<param name="Local" value="menu/view_menu.html#view_zoom_in_vaxis">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zoom Out Vertical Axis">
+				<param name="Local" value="menu/view_menu.html#view_zoom_out_vaxis">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zoom Full Out Vertical Axis">
+				<param name="Local" value="menu/view_menu.html#view_zoom_full_out_vaxis">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Align Vertical Axis">
+				<param name="Local" value="menu/view_menu.html#view_align_vaxis">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Display Information Area">
+				<param name="Local" value="menu/view_menu.html#view_display_info_area">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Draw Detail">
+				<param name="Local" value="menu/view_menu.html#view_draw_detail">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Draw Labels">
+				<param name="Local" value="menu/view_menu.html#view_draw_label">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Log Frequency Axis">
+				<param name="Local" value="menu/view_menu.html#log_frequency_axis">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Spectrogram">
+				<param name="Local" value="menu/view_menu.html#view_spectrogram">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Sound Menu">
+			<param name="Local" value="menu/sound_menu.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Play Selected Region">
+				<param name="Local" value="menu/sound_menu.html#sound_play">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Play Window Contents">
+				<param name="Local" value="menu/sound_menu.html#sound_play_window">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Play Entire File">
+				<param name="Local" value="menu/sound_menu.html#sound_play_file">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Stop Processing">
+				<param name="Local" value="menu/sound_menu.html#sound_stop">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Enable Loop Play">
+				<param name="Local" value="menu/sound_menu.html#sound_loop_play">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Enable Synchronous Play">
+				<param name="Local" value="menu/sound_menu.html#sound_sync_play">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Popup Menu">
+			<param name="Local" value="menu/popup_menu.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Play Selected Region">
+				<param name="Local" value="menu/popup_menu.html#popup_play">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Play Window Contents">
+				<param name="Local" value="menu/popup_menu.html#popup_play_window">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Play Entire File">
+				<param name="Local" value="menu/popup_menu.html#popup_play_file">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Stop Processing">
+				<param name="Local" value="menu/popup_menu.html#popup_stop">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zoom In">
+				<param name="Local" value="menu/popup_menu.html#popup_zoom_in">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zoom Out">
+				<param name="Local" value="menu/popup_menu.html#popup_zoom_out">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zoom Full Out">
+				<param name="Local" value="menu/popup_menu.html#popup_zoom_full_out">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zoom Region">
+				<param name="Local" value="menu/popup_menu.html#popup_bracket_marks">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Align">
+				<param name="Local" value="menu/popup_menu.html#popup_align">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Select Same Region">
+				<param name="Local" value="menu/popup_menu.html#popup_select_all_region">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Select From Here">
+				<param name="Local" value="menu/popup_menu.html#popup_select_from_here">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Select To Here">
+				<param name="Local" value="menu/popup_menu.html#popup_select_to_here">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Edit">
+				<param name="Local" value="menu/popup_menu.html#popup_edit">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Label">
+				<param name="Local" value="menu/popup_menu.html#popup_label">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Analysis">
+				<param name="Local" value="menu/popup_menu.html#popup_analysis">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Dialog Reference">
+		<param name="Local" value="dialog/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Format">
+			<param name="Local" value="dialog/format.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Generate">
+			<param name="Local" value="dialog/generate.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Waveform">
+				<param name="Local" value="dialog/generate.html#waveform_tab">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="File">
+				<param name="Local" value="dialog/generate.html#file_tab">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="File Property">
+			<param name="Local" value="dialog/property.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Sampling Frequency Conversion">
+			<param name="Local" value="dialog/freq_conv.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Filtering">
+			<param name="Local" value="dialog/filtering.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="File Metadata">
+			<param name="Local" value="dialog/file_metadata.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Preference">
+			<param name="Local" value="dialog/preference.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="File">
+				<param name="Local" value="dialog/preference.html#file">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Look">
+				<param name="Local" value="dialog/preference.html#look">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Display">
+				<param name="Local" value="dialog/preference.html#display">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sound">
+				<param name="Local" value="dialog/preference.html#sound">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Label">
+				<param name="Local" value="dialog/preference.html#label">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Autosave">
+				<param name="Local" value="dialog/preference.html#autosave">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Analysis">
+			<param name="Local" value="dialog/analysis.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Parameters">
+				<param name="Local" value="dialog/analysis.html#analysis_parameter">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="CQT Parameters">
+				<param name="Local" value="dialog/analysis.html#cqt_parameter">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Attribute">
+				<param name="Local" value="dialog/analysis.html#analysis_attribute">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Label">
+			<param name="Local" value="dialog/label.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Spectrogram">
+			<param name="Local" value="dialog/spectrogram.html">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

@@ -1,0 +1,43 @@
+.TH SPWAVE "1" "May 2024" "spwave"
+.SH NAME
+spwave \- Audio file editor
+.SH SYNOPSIS
+.B spwave 
+[\fIoptions\fR...] [\fIfile name\fR...]
+.SH DESCRIPTION
+spwave is an audio file editor supporting several sound formats including
+WAV, AIFF, MP3, Ogg Vorbis, raw, and more. The program is designed for
+research use, so stability and usability are regarded as important. spwave
+runs on multiple platforms including Windows, Mac OS, and Linux.
+.SH OPTIONS
+Some typical options are listed below. Many of settings can be modified in the
+preference dialog.
+.TP
+\fB\-f\fR \fB\-freq\fR \fI<sampling frequency>\fR
+Specify sampling frequency for raw data [Hz].
+.TP
+\fB\-c\fR \fB\-channel\fR \fI<number of channels>\fR
+Specify the number of channels for raw data.
+.TP
+\fB\-b\fR \fB\-bit\fR \fI<bits/sample>\fR
+Specify bits per sample for raw data.
+.TP
+\fB\-F\fR \fB\-format\fR \fI<format name>\fR
+Specify the file format for raw data (raw|swap|little|big|text).
+.TP
+\fB\-offset\fR \fI<offset in second>\fR
+Specify initial offset time for display [s].
+.TP
+\fB\-length\fR \fI<length in second>\fR
+Specify initial length for display [s].
+.TP
+\fB\-debug\fR \fI<number>\fR
+Specify the debug level. The larger number generates more debug messages.
+.TP
+\fB\-h\fR \fB\-help\fR
+Display help message.
+.SH "OFFICIAL SITE"
+The official web site is:
+  http://www-ie.meijo-u.ac.jp/labs/rj001/spLibs/spwave/index.html
+.SH AUTHOR
+Hideki BANNO

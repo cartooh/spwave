@@ -1,0 +1,52 @@
+[OPTIONS]
+;Auto TOC=9
+Compatibility=1.1 or later
+Compiled file=help.chm
+Contents file=help.hhc
+Default topic=index2.html
+Default Window=win1
+Display compile progress=Yes
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x409 âpåÍ (ïƒçë)
+
+[WINDOWS]
+win1="spwave Help","help.hhc","Index.hhk","index2.html",,,,,,0x63420,,0x380e,[100,100,1000,700],0x30000,,,,,,0
+
+
+[FILES]
+index2.html
+about\main.html
+about\compile.html
+operation\index.html
+operation\basic.html
+operation\using.html
+operation\options.html
+faq\index.html
+faq\faq.html
+faq\install.html
+faq\environmental.html
+faq\file.html
+faq\operation.html
+faq\request.html
+menu\index.html
+menu\list.html
+menu\file_menu.html
+menu\edit_menu.html
+menu\page_menu.html
+menu\view_menu.html
+menu\sound_menu.html
+menu\popup_menu.html
+dialog\index.html
+dialog\format.html
+dialog\generate.html
+dialog\freq_conv.html
+dialog\filtering.html
+dialog\file_metadata.html
+dialog\preference.html
+dialog\analysis.html
+dialog\label.html
+dialog\spectrogram.html
+
+[INFOTYPES]
+

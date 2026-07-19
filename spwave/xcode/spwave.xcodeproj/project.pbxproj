@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2240CDBD104FABD9007A775F /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2240CDBC104FABD9007A775F /* QuickTime.framework */; };
+		5395A25209E3B202008161BB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A24409E3B202008161BB /* main.c */; };
+		5395A25309E3B202008161BB /* swAnalysis.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A24509E3B202008161BB /* swAnalysis.c */; };
+		5395A25409E3B202008161BB /* swAnalysisDialog.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A24609E3B202008161BB /* swAnalysisDialog.c */; };
+		5395A25509E3B202008161BB /* swCursor.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A24709E3B202008161BB /* swCursor.c */; };
+		5395A25609E3B202008161BB /* swDialog.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A24809E3B202008161BB /* swDialog.c */; };
+		5395A25709E3B202008161BB /* swDraw.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A24909E3B202008161BB /* swDraw.c */; };
+		5395A25809E3B202008161BB /* swEdit.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A24A09E3B202008161BB /* swEdit.c */; };
+		5395A25909E3B202008161BB /* swInfoDialog.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A24B09E3B202008161BB /* swInfoDialog.c */; };
+		5395A25A09E3B202008161BB /* swLabel.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A24C09E3B202008161BB /* swLabel.c */; };
+		5395A25B09E3B202008161BB /* swLabelDialog.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A24D09E3B202008161BB /* swLabelDialog.c */; };
+		5395A25C09E3B202008161BB /* swLabelList.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A24E09E3B202008161BB /* swLabelList.c */; };
+		5395A25D09E3B202008161BB /* swWave.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A24F09E3B202008161BB /* swWave.c */; };
+		5395A25E09E3B202008161BB /* swWaveAudio.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A25009E3B202008161BB /* swWaveAudio.c */; };
+		5395A25F09E3B202008161BB /* swWindow.c in Sources */ = {isa = PBXBuildFile; fileRef = 5395A25109E3B202008161BB /* swWindow.c */; };
+		5395A26409E3B238008161BB /* libsp.mac-ub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5395A26009E3B238008161BB /* libsp.mac-ub.a */; };
+		5395A26509E3B238008161BB /* libspa.mac-ub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5395A26109E3B238008161BB /* libspa.mac-ub.a */; };
+		5395A26609E3B238008161BB /* libspb.mac-ub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5395A26209E3B238008161BB /* libspb.mac-ub.a */; };
+		5395A26709E3B238008161BB /* libspc.mac-ub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5395A26309E3B238008161BB /* libspc.mac-ub.a */; };
+		5395A2DB09E3C3BB008161BB /* vecLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5395A2DA09E3C3BB008161BB /* vecLib.framework */; };
+		5395A2FC09E3D080008161BB /* spwave.r in Rez */ = {isa = PBXBuildFile; fileRef = 5395A2EE09E3CAC4008161BB /* spwave.r */; };
+		5395A30409E3D10F008161BB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C4E960486CD37000505A6 /* Info.plist */; };
+		8D0C4E8D0486CD37000505A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */; };
+		8D0C4E920486CD37000505A6 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		B85B912D158740A200D8BA8B /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85B912C158740A200D8BA8B /* AudioUnit.framework */; };
+		B85B9133158740B100D8BA8B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85B9132158740B100D8BA8B /* AudioToolbox.framework */; };
+		B85B9137158740D900D8BA8B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85B9136158740D900D8BA8B /* CoreAudio.framework */; };
+		B8983CC915F44BC40049700E /* spwave.icns in Resources */ = {isa = PBXBuildFile; fileRef = B8983CC815F44BC40049700E /* spwave.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D6ABFE840B52C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		2240CDBC104FABD9007A775F /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		4A9504C8FFE6A3BC11CA0CBA /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		4A9504CAFFE6A41611CA0CBA /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		5395A23D09E3B0E3008161BB /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5395A24409E3B202008161BB /* main.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../main.c; sourceTree = SOURCE_ROOT; };
+		5395A24509E3B202008161BB /* swAnalysis.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swAnalysis.c; path = ../swAnalysis.c; sourceTree = SOURCE_ROOT; };
+		5395A24609E3B202008161BB /* swAnalysisDialog.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swAnalysisDialog.c; path = ../swAnalysisDialog.c; sourceTree = SOURCE_ROOT; };
+		5395A24709E3B202008161BB /* swCursor.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swCursor.c; path = ../swCursor.c; sourceTree = SOURCE_ROOT; };
+		5395A24809E3B202008161BB /* swDialog.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swDialog.c; path = ../swDialog.c; sourceTree = SOURCE_ROOT; };
+		5395A24909E3B202008161BB /* swDraw.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swDraw.c; path = ../swDraw.c; sourceTree = SOURCE_ROOT; };
+		5395A24A09E3B202008161BB /* swEdit.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swEdit.c; path = ../swEdit.c; sourceTree = SOURCE_ROOT; };
+		5395A24B09E3B202008161BB /* swInfoDialog.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swInfoDialog.c; path = ../swInfoDialog.c; sourceTree = SOURCE_ROOT; };
+		5395A24C09E3B202008161BB /* swLabel.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swLabel.c; path = ../swLabel.c; sourceTree = SOURCE_ROOT; };
+		5395A24D09E3B202008161BB /* swLabelDialog.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swLabelDialog.c; path = ../swLabelDialog.c; sourceTree = SOURCE_ROOT; };
+		5395A24E09E3B202008161BB /* swLabelList.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swLabelList.c; path = ../swLabelList.c; sourceTree = SOURCE_ROOT; };
+		5395A24F09E3B202008161BB /* swWave.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swWave.c; path = ../swWave.c; sourceTree = SOURCE_ROOT; };
+		5395A25009E3B202008161BB /* swWaveAudio.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swWaveAudio.c; path = ../swWaveAudio.c; sourceTree = SOURCE_ROOT; };
+		5395A25109E3B202008161BB /* swWindow.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; name = swWindow.c; path = ../swWindow.c; sourceTree = SOURCE_ROOT; };
+		5395A26009E3B238008161BB /* libsp.mac-ub.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsp.mac-ub.a"; path = "../../lib/libsp.mac-ub.a"; sourceTree = SOURCE_ROOT; };
+		5395A26109E3B238008161BB /* libspa.mac-ub.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libspa.mac-ub.a"; path = "../../lib/libspa.mac-ub.a"; sourceTree = SOURCE_ROOT; };
+		5395A26209E3B238008161BB /* libspb.mac-ub.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libspb.mac-ub.a"; path = "../../lib/libspb.mac-ub.a"; sourceTree = SOURCE_ROOT; };
+		5395A26309E3B238008161BB /* libspc.mac-ub.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libspc.mac-ub.a"; path = "../../lib/libspc.mac-ub.a"; sourceTree = SOURCE_ROOT; };
+		5395A2DA09E3C3BB008161BB /* vecLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vecLib.framework; path = /System/Library/Frameworks/vecLib.framework; sourceTree = "<absolute>"; };
+		5395A2EE09E3CAC4008161BB /* spwave.r */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.rez; name = spwave.r; path = ../spwave.r; sourceTree = SOURCE_ROOT; };
+		8D0C4E960486CD37000505A6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D0C4E970486CD37000505A6 /* spwave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spwave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85B912C158740A200D8BA8B /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		B85B9132158740B100D8BA8B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B85B9136158740D900D8BA8B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		B8983CC815F44BC40049700E /* spwave.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = spwave.icns; path = ../spwave.icns; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0C4E910486CD37000505A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C4E920486CD37000505A6 /* Carbon.framework in Frameworks */,
+				5395A26409E3B238008161BB /* libsp.mac-ub.a in Frameworks */,
+				5395A26509E3B238008161BB /* libspa.mac-ub.a in Frameworks */,
+				5395A26609E3B238008161BB /* libspb.mac-ub.a in Frameworks */,
+				5395A26709E3B238008161BB /* libspc.mac-ub.a in Frameworks */,
+				5395A2DB09E3C3BB008161BB /* vecLib.framework in Frameworks */,
+				2240CDBD104FABD9007A775F /* QuickTime.framework in Frameworks */,
+				B85B912D158740A200D8BA8B /* AudioUnit.framework in Frameworks */,
+				B85B9133158740B100D8BA8B /* AudioToolbox.framework in Frameworks */,
+				B85B9137158740D900D8BA8B /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195DF8CFFE9D517E11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C4E970486CD37000505A6 /* spwave.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20286C29FDCF999611CA2CEA /* spwave */ = {
+			isa = PBXGroup;
+			children = (
+				20286C2AFDCF999611CA2CEA /* Sources */,
+				20286C2CFDCF999611CA2CEA /* Resources */,
+				20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */,
+				195DF8CFFE9D517E11CA2CBB /* Products */,
+			);
+			name = spwave;
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5395A24409E3B202008161BB /* main.c */,
+				5395A24509E3B202008161BB /* swAnalysis.c */,
+				5395A24609E3B202008161BB /* swAnalysisDialog.c */,
+				5395A24709E3B202008161BB /* swCursor.c */,
+				5395A24809E3B202008161BB /* swDialog.c */,
+				5395A24909E3B202008161BB /* swDraw.c */,
+				5395A24A09E3B202008161BB /* swEdit.c */,
+				5395A24B09E3B202008161BB /* swInfoDialog.c */,
+				5395A24C09E3B202008161BB /* swLabel.c */,
+				5395A24D09E3B202008161BB /* swLabelDialog.c */,
+				5395A24E09E3B202008161BB /* swLabelList.c */,
+				5395A24F09E3B202008161BB /* swWave.c */,
+				5395A25009E3B202008161BB /* swWaveAudio.c */,
+				5395A25109E3B202008161BB /* swWindow.c */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8983CC815F44BC40049700E /* spwave.icns */,
+				5395A2EE09E3CAC4008161BB /* spwave.r */,
+				8D0C4E960486CD37000505A6 /* Info.plist */,
+				0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B85B9132158740B100D8BA8B /* AudioToolbox.framework */,
+				2240CDBC104FABD9007A775F /* QuickTime.framework */,
+				5395A2DA09E3C3BB008161BB /* vecLib.framework */,
+				5395A26009E3B238008161BB /* libsp.mac-ub.a */,
+				5395A26109E3B238008161BB /* libspa.mac-ub.a */,
+				5395A26209E3B238008161BB /* libspb.mac-ub.a */,
+				5395A26309E3B238008161BB /* libspc.mac-ub.a */,
+				20286C33FDCF999611CA2CEA /* Carbon.framework */,
+				4A9504CAFFE6A41611CA0CBA /* CoreServices.framework */,
+				4A9504C8FFE6A3BC11CA0CBA /* ApplicationServices.framework */,
+				B85B912C158740A200D8BA8B /* AudioUnit.framework */,
+				B85B9136158740D900D8BA8B /* CoreAudio.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D0C4E890486CD37000505A6 /* spwave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E91AC508A95435008D54AB /* Build configuration list for PBXNativeTarget "spwave" */;
+			buildPhases = (
+				8D0C4E8C0486CD37000505A6 /* Resources */,
+				8D0C4E8F0486CD37000505A6 /* Sources */,
+				8D0C4E910486CD37000505A6 /* Frameworks */,
+				5395A2FD09E3D0A9008161BB /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spwave;
+			productInstallPath = "$(HOME)/Applications";
+			productName = spwave;
+			productReference = 8D0C4E970486CD37000505A6 /* spwave.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20286C28FDCF999611CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C0E91AC908A95435008D54AB /* Build configuration list for PBXProject "spwave" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 20286C29FDCF999611CA2CEA /* spwave */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D0C4E890486CD37000505A6 /* spwave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0C4E8C0486CD37000505A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C4E8D0486CD37000505A6 /* InfoPlist.strings in Resources */,
+				5395A30409E3D10F008161BB /* Info.plist in Resources */,
+				B8983CC915F44BC40049700E /* spwave.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		5395A2FD09E3D0A9008161BB /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5395A2FC09E3D080008161BB /* spwave.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0C4E8F0486CD37000505A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5395A25209E3B202008161BB /* main.c in Sources */,
+				5395A25309E3B202008161BB /* swAnalysis.c in Sources */,
+				5395A25409E3B202008161BB /* swAnalysisDialog.c in Sources */,
+				5395A25509E3B202008161BB /* swCursor.c in Sources */,
+				5395A25609E3B202008161BB /* swDialog.c in Sources */,
+				5395A25709E3B202008161BB /* swDraw.c in Sources */,
+				5395A25809E3B202008161BB /* swEdit.c in Sources */,
+				5395A25909E3B202008161BB /* swInfoDialog.c in Sources */,
+				5395A25A09E3B202008161BB /* swLabel.c in Sources */,
+				5395A25B09E3B202008161BB /* swLabelDialog.c in Sources */,
+				5395A25C09E3B202008161BB /* swLabelList.c in Sources */,
+				5395A25D09E3B202008161BB /* swWave.c in Sources */,
+				5395A25E09E3B202008161BB /* swWaveAudio.c in Sources */,
+				5395A25F09E3B202008161BB /* swWindow.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0867D6ABFE840B52C02AAC07 /* English */,
+				5395A23D09E3B0E3008161BB /* Japanese */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0E91AC608A95435008D54AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(LIBRARY_SEARCH_PATHS)",
+					"$(SRCROOT)/../../lib",
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = spwave;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C0E91AC708A95435008D54AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(LIBRARY_SEARCH_PATHS)",
+					"$(SRCROOT)/../../lib",
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = spwave;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0E91ACA08A95435008D54AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../spBase,
+					../../spAudio,
+					../../spComponent,
+					../..,
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C0E91ACB08A95435008D54AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../spBase,
+					../../spAudio,
+					../../spComponent,
+					../..,
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0E91AC508A95435008D54AB /* Build configuration list for PBXNativeTarget "spwave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E91AC608A95435008D54AB /* Debug */,
+				C0E91AC708A95435008D54AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E91AC908A95435008D54AB /* Build configuration list for PBXProject "spwave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E91ACA08A95435008D54AB /* Debug */,
+				C0E91ACB08A95435008D54AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20286C28FDCF999611CA2CEA /* Project object */;
+}

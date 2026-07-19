@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=spwave
+Type=Application
+Comment=Edit audio files
+Comment[ja]=音声ファイルを編集します
+GenericName=spwave Audio File Editor
+GenericName[ja]=spwave 音声ファイルエディター
+Keywords=Sound;Audio;Editor;Analysis;Viewer
+Keywords[ja]=サウンド;オーディオ;エディター;分析;表示
+Exec=spwave %F
+StartupNotify=true
+Icon=spwave
+Terminal=false
+Categories=GNOME;GTK;AudioVideo;
+MimeType=application/ogg;application/x-flac;application/x-ogg;audio/basic;audio/mpeg;audio/ogg;audio/x-flac;audio/x-mp3;audio/x-mpeg;audio/x-wav;audio/x-vorbis;audio/x-vorbis+ogg;audio/x-caf;audio/x-aiff;

@@ -1,0 +1,3 @@
+tool_bar BITMAP tool_bar.bmp
+spwave_icon ICON spwave256.ico
+1 24 "spwave.exe.manifest"

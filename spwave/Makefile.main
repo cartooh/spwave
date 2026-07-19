@@ -1,0 +1,35 @@
+#########################################################
+#                                                       #
+#       Makefile for spwave				#
+# 				                        #
+#########################################################
+
+#USE_GTK       = y
+#USE_MOTIF     = y
+#USE_LESSTIF   = y
+USE_GUI       = y
+MOTIF_STATIC  = n
+USE_PLUGIN    = y
+USE_GTK2      = y
+USE_THREAD    = y
+
+USE_CONSOLE   = y
+FULL_STATIC   = n
+
+TOP           = ..
+
+USRCFLAGS     = -g -I../spComponent -DSW_STABLE_VERSION
+
+PROGRAM       = spwave
+
+SRCS          = main.c swWindow.c swWave.c swWaveAudio.c swDraw.c \
+		swCursor.c swEdit.c swDialog.c swLabel.c swLabelDialog.c \
+		swAnalysis.c swAnalysisDialog.c swInfoDialog.c swLabelList.c
+
+CPU	      = linux
+
+DEST          = $(HOME)/bin
+
+SPLIBDIRNAME  = lib
+
+include $(TOP)/$(SPLIBDIRNAME)/sp/prog.rules

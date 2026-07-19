@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53FEC3C11D056051000DCA78 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FEC3C01D056051000DCA78 /* CoreAudio.framework */; };
+		53FEC3C31D056081000DCA78 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FEC3C21D056081000DCA78 /* AudioUnit.framework */; };
+		53FEC3C51D056089000DCA78 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FEC3C41D056089000DCA78 /* Accelerate.framework */; };
+		53FEC3C71D0560A9000DCA78 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FEC3C61D0560A9000DCA78 /* AudioToolbox.framework */; };
+		53FEC3C91D056115000DCA78 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FEC3C81D056115000DCA78 /* CoreFoundation.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B898A593140907190098418C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A585140907190098418C /* main.c */; };
+		B898A594140907190098418C /* swAnalysis.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A586140907190098418C /* swAnalysis.c */; };
+		B898A595140907190098418C /* swAnalysisDialog.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A587140907190098418C /* swAnalysisDialog.c */; };
+		B898A596140907190098418C /* swCursor.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A588140907190098418C /* swCursor.c */; };
+		B898A597140907190098418C /* swDialog.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A589140907190098418C /* swDialog.c */; };
+		B898A598140907190098418C /* swDraw.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A58A140907190098418C /* swDraw.c */; };
+		B898A599140907190098418C /* swEdit.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A58B140907190098418C /* swEdit.c */; };
+		B898A59A140907190098418C /* swInfoDialog.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A58C140907190098418C /* swInfoDialog.c */; };
+		B898A59B140907190098418C /* swLabel.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A58D140907190098418C /* swLabel.c */; };
+		B898A59C140907190098418C /* swLabelDialog.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A58E140907190098418C /* swLabelDialog.c */; };
+		B898A59D140907190098418C /* swLabelList.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A58F140907190098418C /* swLabelList.c */; };
+		B898A59E140907190098418C /* swWave.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A590140907190098418C /* swWave.c */; };
+		B898A59F140907190098418C /* swWaveAudio.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A591140907190098418C /* swWaveAudio.c */; };
+		B898A5A0140907190098418C /* swWindow.c in Sources */ = {isa = PBXBuildFile; fileRef = B898A592140907190098418C /* swWindow.c */; };
+		B8C450F015EB749900608F5F /* spwave.icns in Resources */ = {isa = PBXBuildFile; fileRef = B8C450EF15EB749900608F5F /* spwave.icns */; };
+		B8C4513F15EB772700608F5F /* tool_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = B8C4513E15EB772700608F5F /* tool_bar.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		53FEC3C01D056051000DCA78 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		53FEC3C21D056081000DCA78 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		53FEC3C41D056089000DCA78 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		53FEC3C61D0560A9000DCA78 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		53FEC3C81D056115000DCA78 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* spwave-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "spwave-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* spwave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spwave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84249DF1568B0CB007228CF /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B87E40DF19AE052A00BD0FEA /* spwave.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = spwave.entitlements; sourceTree = "<group>"; };
+		B898A585140907190098418C /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../main.c; sourceTree = SOURCE_ROOT; };
+		B898A586140907190098418C /* swAnalysis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swAnalysis.c; path = ../swAnalysis.c; sourceTree = SOURCE_ROOT; };
+		B898A587140907190098418C /* swAnalysisDialog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swAnalysisDialog.c; path = ../swAnalysisDialog.c; sourceTree = SOURCE_ROOT; };
+		B898A588140907190098418C /* swCursor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swCursor.c; path = ../swCursor.c; sourceTree = SOURCE_ROOT; };
+		B898A589140907190098418C /* swDialog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swDialog.c; path = ../swDialog.c; sourceTree = SOURCE_ROOT; };
+		B898A58A140907190098418C /* swDraw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swDraw.c; path = ../swDraw.c; sourceTree = SOURCE_ROOT; };
+		B898A58B140907190098418C /* swEdit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swEdit.c; path = ../swEdit.c; sourceTree = SOURCE_ROOT; };
+		B898A58C140907190098418C /* swInfoDialog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swInfoDialog.c; path = ../swInfoDialog.c; sourceTree = SOURCE_ROOT; };
+		B898A58D140907190098418C /* swLabel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swLabel.c; path = ../swLabel.c; sourceTree = SOURCE_ROOT; };
+		B898A58E140907190098418C /* swLabelDialog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swLabelDialog.c; path = ../swLabelDialog.c; sourceTree = SOURCE_ROOT; };
+		B898A58F140907190098418C /* swLabelList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swLabelList.c; path = ../swLabelList.c; sourceTree = SOURCE_ROOT; };
+		B898A590140907190098418C /* swWave.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swWave.c; path = ../swWave.c; sourceTree = SOURCE_ROOT; };
+		B898A591140907190098418C /* swWaveAudio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swWaveAudio.c; path = ../swWaveAudio.c; sourceTree = SOURCE_ROOT; };
+		B898A592140907190098418C /* swWindow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = swWindow.c; path = ../swWindow.c; sourceTree = SOURCE_ROOT; };
+		B8C450EF15EB749900608F5F /* spwave.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = spwave.icns; path = ../spwave.icns; sourceTree = SOURCE_ROOT; };
+		B8C4513E15EB772700608F5F /* tool_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tool_bar.png; path = ../tool_bar.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FEC3C91D056115000DCA78 /* CoreFoundation.framework in Frameworks */,
+				53FEC3C71D0560A9000DCA78 /* AudioToolbox.framework in Frameworks */,
+				53FEC3C51D056089000DCA78 /* Accelerate.framework in Frameworks */,
+				53FEC3C31D056081000DCA78 /* AudioUnit.framework in Frameworks */,
+				53FEC3C11D056051000DCA78 /* CoreAudio.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53FEC3C81D056115000DCA78 /* CoreFoundation.framework */,
+				53FEC3C61D0560A9000DCA78 /* AudioToolbox.framework */,
+				53FEC3C41D056089000DCA78 /* Accelerate.framework */,
+				53FEC3C21D056081000DCA78 /* AudioUnit.framework */,
+				53FEC3C01D056051000DCA78 /* CoreAudio.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* spwave.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* spwave */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = spwave;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B898A585140907190098418C /* main.c */,
+				B898A586140907190098418C /* swAnalysis.c */,
+				B898A587140907190098418C /* swAnalysisDialog.c */,
+				B898A588140907190098418C /* swCursor.c */,
+				B898A589140907190098418C /* swDialog.c */,
+				B898A58A140907190098418C /* swDraw.c */,
+				B898A58B140907190098418C /* swEdit.c */,
+				B898A58C140907190098418C /* swInfoDialog.c */,
+				B898A58D140907190098418C /* swLabel.c */,
+				B898A58E140907190098418C /* swLabelDialog.c */,
+				B898A58F140907190098418C /* swLabelList.c */,
+				B898A590140907190098418C /* swWave.c */,
+				B898A591140907190098418C /* swWaveAudio.c */,
+				B898A592140907190098418C /* swWindow.c */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B87E40DF19AE052A00BD0FEA /* spwave.entitlements */,
+				B8C4513E15EB772700608F5F /* tool_bar.png */,
+				B8C450EF15EB749900608F5F /* spwave.icns */,
+				8D1107310486CEB800E47090 /* spwave-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* spwave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "spwave" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spwave;
+			productInstallPath = "$(HOME)/Applications";
+			productName = spwave;
+			productReference = 8D1107320486CEB800E47090 /* spwave.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					8D1107260486CEB800E47090 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "spwave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* spwave */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* spwave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				B8C450F015EB749900608F5F /* spwave.icns in Resources */,
+				B8C4513F15EB772700608F5F /* tool_bar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B898A593140907190098418C /* main.c in Sources */,
+				B898A594140907190098418C /* swAnalysis.c in Sources */,
+				B898A595140907190098418C /* swAnalysisDialog.c in Sources */,
+				B898A596140907190098418C /* swCursor.c in Sources */,
+				B898A597140907190098418C /* swDialog.c in Sources */,
+				B898A598140907190098418C /* swDraw.c in Sources */,
+				B898A599140907190098418C /* swEdit.c in Sources */,
+				B898A59A140907190098418C /* swInfoDialog.c in Sources */,
+				B898A59B140907190098418C /* swLabel.c in Sources */,
+				B898A59C140907190098418C /* swLabelDialog.c in Sources */,
+				B898A59D140907190098418C /* swLabelList.c in Sources */,
+				B898A59E140907190098418C /* swWave.c in Sources */,
+				B898A59F140907190098418C /* swWaveAudio.c in Sources */,
+				B898A5A0140907190098418C /* swWindow.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				B84249DF1568B0CB007228CF /* Japanese */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "0.8.6-2";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "COCOA=1";
+				HEADER_SEARCH_PATHS = (
+					../../spBase/,
+					../../spAudio/,
+					../../,
+					../../spComponent/,
+				);
+				INFOPLIST_FILE = "spwave-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = ../../lib;
+				MARKETING_VERSION = 0.8.6;
+				OTHER_LDFLAGS = (
+					"-lspc-cocoa.mac64",
+					"-lspa.mac64",
+					"-lsp.mac64",
+					"-lspb.mac64",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.splibs.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = spwave;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = "0.8.6-2";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "COCOA=1";
+				HEADER_SEARCH_PATHS = (
+					../../spBase/,
+					../../spAudio/,
+					../../,
+					../../spComponent/,
+				);
+				INFOPLIST_FILE = "spwave-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = ../../lib;
+				MARKETING_VERSION = 0.8.6;
+				OTHER_LDFLAGS = (
+					"-lspc-cocoa.mac64",
+					"-lspa.mac64",
+					"-lsp.mac64",
+					"-lspb.mac64",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.splibs.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = spwave;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "spwave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "spwave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

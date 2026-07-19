@@ -1,0 +1,57 @@
+コンパイルに必要なライブラリ
+----------------------------
+* spLibs (http://www.itakura.nuee.nagoya-u.ac.jp/people/banno/spLibs/index-j.html)
+  - spBase 0.8.9 以上
+  - spLib 0.8.3 以上
+  - spAudio 0.7.5 以上
+  - spComponent 0.6.5 以上
+
+* オペレーティングシステム，ツールキット
+  - Windows ... Windows Vista 以上（開発環境: Visual C++）
+  - macOS (10.6 - 10.14) ... Mac OS X 10.6 以上（開発環境: xcode）
+  - Motif ... Version 1.2.X 以上
+  - gtk ... Version 2.X か 3.X
+
+
+コンパイル方法
+--------------
+UNIXバージョンをコンパイルする場合は（LinuxやCygwinを含みます），
+まずspwaveのディレクトリに移動し，
+spLibsの`include'ディレクトリと`lib'ディレクトリに
+シンボリックリンクを張ります（例えば/usr/local/includeと/usr/local/lib）．
+
+ % cd spwave-X.X.X
+ % ln -s /usr/local/include
+ % ln -s /usr/local/lib
+
+コンパイル環境の設定がspBaseの設定ファイルに記述されている場合は，
+spwaveのソースディレクトリに移動し，
+
+ % cd spwave
+ % make
+
+を実行するだけでライブラリをコンパイルすることができます．
+
+このライブラリを，システムにインストールする場合は（例えば/usr/localなど），
+ルートでログインして以下のように実行してください．
+
+ # make SPDESTROOT=/usr/local install
+
+spLibsのあるディレクトリにシンボリックリンクを張りたくない人は，make
+のオプションに，TOP=/usr/local （/usr/localは，
+spLibsのトップディレクトリを表します）を付け加えることでも
+インストールすることができます．
+
+ % cd spwave-X.X.X
+ % cd spwave
+ % make TOP=/usr/local
+ % su
+ # make TOP=/usr/local SPDESTROOT=/usr/local install
+
+なお，Linux上では，gtkバージョンが強制的に選択されるため，
+Motifバージョンをコンパイルするためには，USE_MOTIF=y というオプションを
+makeのオプションに加えて下さい．WindowsやmacOSでもコンパイルしたいという人は，
+頑張ってやってみて下さい(^^)
+
+
+坂野秀樹（Banno Hideki）

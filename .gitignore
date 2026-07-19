@@ -1,0 +1,34 @@
+# --- Third-party spLibs headers/libraries (downloaded, not part of this source) ---
+/include/
+/lib/
+
+# --- Build outputs ---
+spwave/x64/
+spwave/ARM64/
+spwave/Debug/
+spwave/Release/
+spwave/ReleaseMT/
+*.obj
+*.res
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.tlog
+*.recipe
+*.FileListAbsolute.txt
+
+# --- Visual Studio user/IDE files ---
+.vs/
+*.suo
+*.user
+*.opt
+*.aps
+*.ncb
+*.sdf
+*.VC.db
+
+# --- macOS ---
+.DS_Store
+xcuserdata/
+build/

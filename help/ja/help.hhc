@@ -1,0 +1,680 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Auto Generated" value="Yes">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="spwaveユーザーズガイド">
+		<param name="Local" value="index2.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="spwaveについて">
+		<param name="Local" value="about/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="はじめに">
+			<param name="Local" value="about/main.html#introduction">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="特徴">
+			<param name="Local" value="about/main.html#features">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="対応ファイル一覧">
+			<param name="Local" value="about/main.html#formats">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="インストール">
+			<param name="Local" value="about/main.html#install">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="動作確認">
+			<param name="Local" value="about/main.html#platforms">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="バグ">
+			<param name="Local" value="about/main.html#bugs">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="質問やバグ報告">
+			<param name="Local" value="about/main.html#bug_report">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ライセンス">
+			<param name="Local" value="about/main.html#license">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="オフィシャルサイト">
+			<param name="Local" value="about/main.html#official_site">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Thanks To">
+			<param name="Local" value="about/main.html#thanks_to">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="コンパイル方法">
+			<param name="Local" value="about/compile.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="操作方法">
+		<param name="Local" value="operation/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="基本操作">
+			<param name="Local" value="operation/basic.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="起動">
+				<param name="Local" value="operation/basic.html#execution">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="画面について">
+				<param name="Local" value="operation/basic.html#window">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ファイルの読み込み">
+				<param name="Local" value="operation/basic.html#file_open">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ファイルの保存">
+				<param name="Local" value="operation/basic.html#file_save">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="フォーマット">
+				<param name="Local" value="operation/basic.html#format">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="範囲の指定">
+				<param name="Local" value="operation/basic.html#region">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ファイルの再生">
+				<param name="Local" value="operation/basic.html#file_play">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ファイルの編集">
+				<param name="Local" value="operation/basic.html#file_edit">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="表示領域の移動・表示">
+				<param name="Local" value="operation/basic.html#movement">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="オーバービュー">
+				<param name="Local" value="operation/basic.html#overview">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ラベル">
+				<param name="Local" value="operation/basic.html#label">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="使用例">
+			<param name="Local" value="operation/using.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="切り出し">
+				<param name="Local" value="operation/using.html#crop">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="変換">
+				<param name="Local" value="operation/using.html#conversion">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="クリップボード">
+				<param name="Local" value="operation/using.html#clipboard">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="比較">
+				<param name="Local" value="operation/using.html#compare">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="分析">
+				<param name="Local" value="operation/using.html#analysis">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="コマンドラインオプション">
+			<param name="Local" value="operation/options.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="よくある質問">
+		<param name="Local" value="faq/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="質問一覧">
+			<param name="Local" value="faq/faq.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="インストール関連">
+				<param name="Local" value="faq/faq.html#faq_install">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="環境依存">
+				<param name="Local" value="faq/faq.html#faq_environmental">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ファイル関連">
+				<param name="Local" value="faq/faq.html#faq_file">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="操作関連">
+				<param name="Local" value="faq/faq.html#faq_operation">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="要望・その他">
+				<param name="Local" value="faq/faq.html#faq_request">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="インストール関連">
+			<param name="Local" value="faq/install.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="環境依存">
+			<param name="Local" value="faq/environmental.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ファイル関連">
+			<param name="Local" value="faq/file.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="操作関連">
+			<param name="Local" value="faq/operation.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="要望・その他">
+			<param name="Local" value="faq/request.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="メニューリファレンス">
+		<param name="Local" value="menu/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="メニュー一覧">
+			<param name="Local" value="menu/list.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ファイルメニュー">
+			<param name="Local" value="menu/file_menu.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="開く...">
+				<param name="Local" value="menu/file_menu.html#file_open">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="新規に開く...">
+				<param name="Local" value="menu/file_menu.html#file_open_new">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="波形生成...">
+				<param name="Local" value="menu/file_menu.html#file_generate">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="保存">
+				<param name="Local" value="menu/file_menu.html#file_save">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="名前を付けて保存...">
+				<param name="Local" value="menu/file_menu.html#file_save_as">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ラベル">
+				<param name="Local" value="menu/file_menu.html#file_label">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="プロパティ...">
+				<param name="Local" value="menu/file_menu.html#file_property">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="印刷先">
+				<param name="Local" value="menu/file_menu.html#file_print_target">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ページ設定...">
+				<param name="Local" value="menu/file_menu.html#file_page_setup">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="印刷...">
+				<param name="Local" value="menu/file_menu.html#file_print">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="閉じる">
+				<param name="Local" value="menu/file_menu.html#file_close">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="終了">
+				<param name="Local" value="menu/file_menu.html#file_exit">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="編集メニュー">
+			<param name="Local" value="menu/edit_menu.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="取り消し">
+				<param name="Local" value="menu/edit_menu.html#edit_undo">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="やり直し">
+				<param name="Local" value="menu/edit_menu.html#edit_redo">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="切り出し">
+				<param name="Local" value="menu/edit_menu.html#edit_crop">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="削除">
+				<param name="Local" value="menu/edit_menu.html#edit_delete">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="イレース">
+				<param name="Local" value="menu/edit_menu.html#edit_erase">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="取り出し">
+				<param name="Local" value="menu/edit_menu.html#edit_extract">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="取り出しと自動保存">
+				<param name="Local" value="menu/edit_menu.html#edit_extract_autosave">
+				</OBJECT>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="切り取り">
+				<param name="Local" value="menu/edit_menu.html#edit_cut">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="コピー">
+				<param name="Local" value="menu/edit_menu.html#edit_copy">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="末尾へ結合">
+				<param name="Local" value="menu/edit_menu.html#edit_concat">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="先頭へ結合">
+				<param name="Local" value="menu/edit_menu.html#edit_concat_top">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="クリップボードウィンドウ...">
+				<param name="Local" value="menu/edit_menu.html#edit_clipboard_window">
+				</OBJECT>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="振幅の変更...">
+				<param name="Local" value="menu/edit_menu.html#edit_amplify">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="振幅の反転">
+				<param name="Local" value="menu/edit_menu.html#edit_invert">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="フェードイン">
+				<param name="Local" value="menu/edit_menu.html#edit_fade_in">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="フェードアウト">
+				<param name="Local" value="menu/edit_menu.html#edit_fade_out">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="チャネル入れ換え">
+				<param name="Local" value="menu/edit_menu.html#edit_channel_swap">
+				</OBJECT>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ビット/サンプル変換...">
+				<param name="Local" value="menu/edit_menu.html#edit_bit_conv">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="サンプリング周波数変換...">
+				<param name="Local" value="menu/edit_menu.html#edit_samp_freq_conv">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="モノラル化">
+				<param name="Local" value="menu/edit_menu.html#edit_monauralize">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="フィルタリング...">
+				<param name="Local" value="menu/edit_menu.html#edit_filtering">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ファイルのメタデータ...">
+				<param name="Local" value="menu/edit_menu.html#edit_metadata">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="設定...">
+				<param name="Local" value="menu/edit_menu.html#preference">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="分析の設定...">
+				<param name="Local" value="menu/edit_menu.html#analysis_preference">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ページメニュー">
+			<param name="Local" value="menu/page_menu.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="進む">
+				<param name="Local" value="menu/page_menu.html#page_forward">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="戻る">
+				<param name="Local" value="menu/page_menu.html#page_backward">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="先頭">
+				<param name="Local" value="menu/page_menu.html#page_go_head">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="末尾">
+				<param name="Local" value="menu/page_menu.html#page_go_tail">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="次のウィンドウ">
+				<param name="Local" value="menu/page_menu.html#page_next">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="前のウィンドウ">
+				<param name="Local" value="menu/page_menu.html#page_previous">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="同期">
+				<param name="Local" value="menu/page_menu.html#page_align">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="この範囲を指定">
+				<param name="Local" value="menu/page_menu.html#page_select">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="全て選択">
+				<param name="Local" value="menu/page_menu.html#page_select_all">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="全部を同じ範囲に">
+				<param name="Local" value="menu/page_menu.html#page_select_all_region">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="次のチャネルを選択">
+				<param name="Local" value="menu/page_menu.html#page_select_next_channel">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="表示メニュー">
+			<param name="Local" value="menu/view_menu.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="拡大">
+				<param name="Local" value="menu/view_menu.html#view_zoom_in">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="縮小">
+				<param name="Local" value="menu/view_menu.html#view_zoom_out">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="全体の表示">
+				<param name="Local" value="menu/view_menu.html#view_zoom_full_out">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="指定範囲を拡大">
+				<param name="Local" value="menu/view_menu.html#view_bracket_marks">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="時間軸">
+				<param name="Local" value="menu/view_menu.html#view_time">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="縦軸の拡大">
+				<param name="Local" value="menu/view_menu.html#view_zoom_in_vaxis">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="縦軸の縮小">
+				<param name="Local" value="menu/view_menu.html#view_zoom_out_vaxis">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="縦軸の全体の表示">
+				<param name="Local" value="menu/view_menu.html#view_zoom_full_out_vaxis">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="縦軸の同期">
+				<param name="Local" value="menu/view_menu.html#view_align_vaxis">
+				</OBJECT>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="情報エリアを表示">
+				<param name="Local" value="menu/view_menu.html#view_display_info_area">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="詳細な描画">
+				<param name="Local" value="menu/view_menu.html#view_draw_detail">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ラベルの描画">
+				<param name="Local" value="menu/view_menu.html#view_draw_label">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="対数周波数軸">
+				<param name="Local" value="menu/view_menu.html#log_frequency_axis">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="スペクトログラム">
+				<param name="Local" value="menu/view_menu.html#view_spectrogram">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="サウンドメニュー">
+			<param name="Local" value="menu/sound_menu.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="指定範囲を再生">
+				<param name="Local" value="menu/sound_menu.html#sound_play">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ウィンドウの範囲を再生">
+				<param name="Local" value="menu/sound_menu.html#sound_play_window">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="波形全体を再生">
+				<param name="Local" value="menu/sound_menu.html#sound_play_file">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="処理を停止">
+				<param name="Local" value="menu/sound_menu.html#sound_stop">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ループ再生を有効に">
+				<param name="Local" value="menu/sound_menu.html#sound_loop_play">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="同期再生を有効に">
+				<param name="Local" value="menu/sound_menu.html#sound_sync_play">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ポップアップメニュー">
+			<param name="Local" value="menu/popup_menu.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="指定範囲を再生">
+				<param name="Local" value="menu/popup_menu.html#popup_play">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ウィンドウの範囲を再生">
+				<param name="Local" value="menu/popup_menu.html#popup_play_window">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="波形全体を再生">
+				<param name="Local" value="menu/popup_menu.html#popup_play_file">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="処理を停止">
+				<param name="Local" value="menu/popup_menu.html#popup_stop">
+				</OBJECT>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="拡大">
+				<param name="Local" value="menu/popup_menu.html#popup_zoom_in">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="縮小">
+				<param name="Local" value="menu/popup_menu.html#popup_zoom_out">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="全体の表示">
+				<param name="Local" value="menu/popup_menu.html#popup_zoom_full_out">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="指定範囲を拡大">
+				<param name="Local" value="menu/popup_menu.html#popup_bracket_marks">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="同期">
+				<param name="Local" value="menu/popup_menu.html#popup_align">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="全部を同じ範囲に">
+				<param name="Local" value="menu/popup_menu.html#popup_select_all_region">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ここから選択">
+				<param name="Local" value="menu/popup_menu.html#popup_select_from_here">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ここまで選択">
+				<param name="Local" value="menu/popup_menu.html#popup_select_to_here">
+				</OBJECT>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="編集">
+				<param name="Local" value="menu/popup_menu.html#popup_edit">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ラベル">
+				<param name="Local" value="menu/popup_menu.html#popup_label">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="分析">
+				<param name="Local" value="menu/popup_menu.html#popup_analysis">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ダイアログリファレンス">
+		<param name="Local" value="dialog/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="フォーマット選択">
+			<param name="Local" value="dialog/format.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="波形生成">
+			<param name="Local" value="dialog/generate.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="波形">
+				<param name="Local" value="dialog/generate.html#waveform_tab">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ファイル">
+				<param name="Local" value="dialog/generate.html#file_tab">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ファイルのプロパティ">
+			<param name="Local" value="dialog/property.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="サンプリング周波数変換">
+			<param name="Local" value="dialog/freq_conv.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="フィルタリング">
+			<param name="Local" value="dialog/filtering.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ファイルのメタデータ">
+			<param name="Local" value="dialog/file_metadata.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="設定ダイアログ">
+			<param name="Local" value="dialog/preference.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ファイル">
+				<param name="Local" value="dialog/preference.html#file">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="外観">
+				<param name="Local" value="dialog/preference.html#look">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="表示">
+				<param name="Local" value="dialog/preference.html#display">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="サウンド">
+				<param name="Local" value="dialog/preference.html#sound">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ラベル">
+				<param name="Local" value="dialog/preference.html#label">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="自動保存">
+				<param name="Local" value="dialog/preference.html#autosave">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="分析の設定">
+			<param name="Local" value="dialog/analysis.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="パラメータ">
+				<param name="Local" value="dialog/analysis.html#analysis_parameter">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="CQTのパラメータ">
+				<param name="Local" value="dialog/analysis.html#cqt_parameter">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="動作">
+				<param name="Local" value="dialog/analysis.html#analysis_attribute">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ラベル">
+			<param name="Local" value="dialog/label.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="スペクトログラム">
+			<param name="Local" value="dialog/spectrogram.html">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>
