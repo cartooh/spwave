@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  swStringDefs_SJIS.h などの Shift-JIS ソースを、ビルドマシンのロケールに
+  かかわらず正しくコンパイルするための設定。
+  英語ロケール(コードページ1252)の環境(GitHub Actions ランナー等)では、
+  「表」(0x95 0x5C) のような2バイト目が 0x5C の文字がエスケープ処理で
+  壊れて文字化けするため、ソース・実行文字セットを cp932 に固定する。
+-->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalOptions>/source-charset:.932 /execution-charset:.932 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>
