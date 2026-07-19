@@ -1,0 +1,39 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build-windows-x64:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache spLibs archives
+        uses: actions/cache@v4
+        with:
+          path: .deps
+          key: spdeps-${{ hashFiles('setup-deps.ps1') }}
+
+      - name: Fetch spLibs dependencies
+        shell: pwsh
+        run: .\setup-deps.ps1
+
+      - name: Add MSBuild to PATH
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Build (Release x64)
+        run: msbuild spwave\spwave.vcxproj /p:Configuration=Release /p:Platform=x64 /m
+
+      - name: Make dist
+        shell: pwsh
+        run: .\make-dist.ps1
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: spwave-win-x64
+          path: dist/win-x64

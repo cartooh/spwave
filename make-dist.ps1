@@ -27,10 +27,17 @@ if (-not (Test-Path (Join-Path $buildDir "plugins"))) {
     throw "plugins folder not found in $buildDir  (run setup-deps.ps1 first)"
 }
 
+# Monkey's Audio と Windows Media Audio のプラグインは SDK のライセンス条件が
+# 別のため、公開リポジトリの dist には含めない (THIRD-PARTY-LICENSES.txt 参照)
+$excludePlugins = @("input_monkey.dll", "output_monkey.dll", "input_wma.dll", "output_wma.dll")
+
 New-Item -ItemType Directory -Force $distDir | Out-Null
 Copy-Item -Force $exe $distDir
 Remove-Item -Recurse -Force -ErrorAction Ignore (Join-Path $distDir "plugins")
-Copy-Item -Recurse -Force (Join-Path $buildDir "plugins") (Join-Path $distDir "plugins")
+New-Item -ItemType Directory -Force (Join-Path $distDir "plugins") | Out-Null
+Get-ChildItem (Join-Path $buildDir "plugins") -File |
+    Where-Object { $excludePlugins -notcontains $_.Name } |
+    Copy-Item -Destination (Join-Path $distDir "plugins")
 
 $ver = (Get-Item $exe).VersionInfo.FileVersion
 Write-Host "Done: $distDir (spwave.exe $ver + $((Get-ChildItem (Join-Path $distDir 'plugins')).Count) plugin files)" -ForegroundColor Green
