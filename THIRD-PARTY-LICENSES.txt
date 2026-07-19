@@ -147,9 +147,20 @@ dist/win-x64/plugins include or link the following libraries:
   * libFLAC - BSD-style license               https://xiph.org/flac/
   * Apple Lossless Audio Codec (ALAC) - Apache License 2.0
 
-The Monkey's Audio plugins (input_monkey.dll, output_monkey.dll) and
-Windows Media Audio plugins (input_wma.dll, output_wma.dll) are NOT
-included in dist/ of
-this repository because their underlying SDKs have their own license
-terms. They are available in the official spPlugin package:
+The plugin DLLs also embed kanji-code conversion code derived from nkf
+(Network Kanji Filter):
+  Copyright (C) 1987, FUJITSU LTD. (I.Ichikawa), 1998 S. Kono, COW
+nkf is distributed under a permissive license that allows copying,
+modification, and redistribution.
+
+The following plugins from the official spPlugin package are NOT
+included in dist/ of this repository because they embed or link SDKs
+and engines with their own license terms:
+
+  * input_monkey.dll, output_monkey.dll - Monkey's Audio SDK
+  * input_wma.dll, output_wma.dll - Microsoft Windows Media Format SDK
+  * asio.dll - Steinberg ASIO SDK (requires a license agreement)
+  * input_mpeg.dll - MP3 decoding engine based on FreeAmp/Zinf (GPL)
+
+They are available in the official spPlugin package:
   https://www-ie.meijo-u.ac.jp/~banno/spLibs/index-j.html

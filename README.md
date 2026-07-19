@@ -30,6 +30,10 @@
 - 静的リンクしている spLibs(spBase / spLib / spAudio / spComponent)および
   同梱プラグイン(spPlugin): MIT系ライセンス
   ([THIRD-PARTY-LICENSES.txt](THIRD-PARTY-LICENSES.txt) 参照)
-- Monkey's Audio / Windows Media Audio プラグインは、SDK のライセンスが
-  別条件のため `dist/` には含めていません。必要な場合は公式の spPlugin
-  パッケージから取得してください。
+- 以下のプラグインは SDK・エンジンのライセンスが別条件のため `dist/` には
+  含めていません(WAV 等の基本的な再生・編集には影響しません)。
+  必要な場合は[公式の spPlugin パッケージ](https://www-ie.meijo-u.ac.jp/~banno/spLibs/index-j.html)から取得し、`plugins\` フォルダにコピーしてください。
+  - Monkey's Audio(input/output_monkey.dll)
+  - Windows Media Audio(input/output_wma.dll)
+  - ASIO ドライバ対応(asio.dll — Steinberg ASIO SDK)
+  - MP3 読み込み(input_mpeg.dll — FreeAmp/Zinf 由来エンジン, GPL系)

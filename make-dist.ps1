@@ -27,9 +27,13 @@ if (-not (Test-Path (Join-Path $buildDir "plugins"))) {
     throw "plugins folder not found in $buildDir  (run setup-deps.ps1 first)"
 }
 
-# Monkey's Audio と Windows Media Audio のプラグインは SDK のライセンス条件が
-# 別のため、公開リポジトリの dist には含めない (THIRD-PARTY-LICENSES.txt 参照)
-$excludePlugins = @("input_monkey.dll", "output_monkey.dll", "input_wma.dll", "output_wma.dll")
+# 以下のプラグインは SDK・ライセンス条件が別枠のため、公開リポジトリの dist には
+# 含めない (THIRD-PARTY-LICENSES.txt 参照)
+#  - monkey/wma: Monkey's Audio SDK / Windows Media Format SDK
+#  - asio: Steinberg ASIO SDK (要ライセンス同意)
+#  - input_mpeg: FreeAmp(Zinf) 由来のデコードエンジン (GPL 系)
+$excludePlugins = @("input_monkey.dll", "output_monkey.dll", "input_wma.dll", "output_wma.dll",
+                    "asio.dll", "input_mpeg.dll")
 
 New-Item -ItemType Directory -Force $distDir | Out-Null
 Copy-Item -Force $exe $distDir
