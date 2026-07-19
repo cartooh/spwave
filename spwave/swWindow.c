@@ -2066,7 +2066,8 @@ spBool swCloseWindowOrRevertToNullWindow(swWindow window, spBool quit_prompt, sp
             swRefreshWindow(window, SP_FALSE, SP_TRUE);
             swSetSenseLevel(window);
         } else {
-            if (quit_prompt == SP_TRUE && window->config->toplevel->num_window == 1) {
+            if (quit_prompt == SP_TRUE && window->config->quit_prompt == SP_TRUE
+                && window->config->toplevel->num_window == 1) {
                 if (spQuitPrompt(window->window) == SP_FALSE) {
                     return SP_FALSE;
                 }
@@ -3108,7 +3109,8 @@ void swQuitCB(spComponent component, swWindow window)
 
     spDebug(10, "swQuitCB", "in\n");
     
-    if (spQuitPrompt(window->window) == SP_FALSE) {
+    if (window->config->quit_prompt == SP_TRUE
+	&& spQuitPrompt(window->window) == SP_FALSE) {
 	return;
     }
     

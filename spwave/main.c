@@ -162,6 +162,7 @@ static swConfigRec sw_config =
     SP_TRUE,			/* draw_selection_length */
     SP_FALSE,			/* link_region_label */
     SP_TRUE,			/* erase_label_prompt */
+    SP_TRUE,			/* quit_prompt */
     SP_FALSE,			/* show_dialog_in_first_label_save */
     SP_TRUE,			/* add_default_label_suffix_for_save_as */
     SP_FALSE,			/* display_info_area */
@@ -501,6 +502,8 @@ static spOption sw_option[] = {
 	 SP_TYPE_BOOLEAN, &sw_config.link_region_label, SP_FALSE_STRING},
     {NULL, NULL, "prompt before erasing labels", "erase_label_prompt",
 	 SP_TYPE_BOOLEAN, &sw_config.erase_label_prompt, SP_TRUE_STRING},
+    {NULL, NULL, "prompt before quitting", "quit_prompt",
+	 SP_TYPE_BOOLEAN, &sw_config.quit_prompt, SP_TRUE_STRING},
     {NULL, NULL, "show Save As dialog in first label save", "show_dialog_in_first_label_save",
 	 SP_TYPE_BOOLEAN, &sw_config.show_dialog_in_first_label_save, SP_FALSE_STRING},
     {NULL, NULL, "add default label suffix for Save As dialog", "add_default_label_suffix_for_save_as",

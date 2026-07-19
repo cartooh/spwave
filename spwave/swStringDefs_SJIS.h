@@ -385,6 +385,7 @@ spStringTable sw_string_table_jp[] = {
     {SW_DISPLAY_FREQ_INFO_AREA_LABEL_ID, "情報エリアを周波数データに表示"},
     {SW_LINK_REGION_LABEL_LABEL_ID, "選択されたラベルを現在の範囲にする"},
     {SW_ERASE_LABEL_PROMPT_LABEL_ID, "ラベルを削除する前に尋ねる"},
+    {SW_QUIT_PROMPT_LABEL_ID, "終了する前に尋ねる"},
     {SW_SHOW_DIALOG_IN_FIRST_LABEL_SAVE_LABEL_ID, "最初のラベル保存時に保存ダイアログを表示"},
     {SW_ADD_DEFAULT_LABEL_SUFFIX_FOR_SAVE_AS_LABEL_ID, "デフォルトのラベル接尾辞を保存時に追加"},
     {SW_LOAD_DEFAULT_LABEL_LABEL_ID, "同じディレクトリのデフォルトのラベルを読み込む"},

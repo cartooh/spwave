@@ -383,6 +383,7 @@ spStringTable sw_string_table[] = {
     {SW_DISPLAY_FREQ_INFO_AREA_LABEL_ID, "Display the information area for frequency data"},
     {SW_LINK_REGION_LABEL_LABEL_ID, "Link a selected label to a selection"},
     {SW_ERASE_LABEL_PROMPT_LABEL_ID, "Always ask before erasing a label"},
+    {SW_QUIT_PROMPT_LABEL_ID, "Always ask before quitting"},
     {SW_SHOW_DIALOG_IN_FIRST_LABEL_SAVE_LABEL_ID, "Show Save As dialog in first label save"},
     {SW_ADD_DEFAULT_LABEL_SUFFIX_FOR_SAVE_AS_LABEL_ID, "Add default label suffix in Save As dialog"},
     {SW_LOAD_DEFAULT_LABEL_LABEL_ID, "Load the default label file in the file directory"},

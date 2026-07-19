@@ -441,6 +441,7 @@ struct _swConfig {
     spBool draw_selection_length;
     spBool link_region_label;
     spBool erase_label_prompt;
+    spBool quit_prompt;
     spBool show_dialog_in_first_label_save;
     spBool add_default_label_suffix_for_save_as;
     spBool display_info_area;

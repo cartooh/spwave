@@ -442,6 +442,8 @@ void swPopdownPreferenceDialogCB(spComponent component, swPrefDialog pref_dialog
 			 &pref_dialog->config->alt_ctrl_swap);
 	spGetToggleState(pref_dialog->scroll_left_by_wheel_down_button,
 			 &pref_dialog->config->scroll_left_by_wheel_down);
+	spGetToggleState(pref_dialog->quit_prompt_button,
+			 &pref_dialog->config->quit_prompt);
 	
 #ifdef SW_USE_TOOL_BAR
 	if (spGetToggleState(pref_dialog->use_tool_bar_button, &use_tool_bar) == SP_TRUE) {
@@ -729,7 +731,12 @@ static void createPreferenceLookTab(swPrefDialog pref_dialog, spComponent tab_bo
 							SppHelpPath, "dialog/preference.html#use_tool_bar",
 							NULL);
 #endif
-    
+
+    pref_dialog->quit_prompt_button = spCreateCheckBox(pref_dialog->look_tab, "quitPromptButton",
+						       SppTitle, SW_QUIT_PROMPT_LABEL,
+						       SppSet, pref_dialog->config->quit_prompt,
+						       NULL);
+
     return;
 }
 

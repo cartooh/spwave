@@ -83,6 +83,7 @@ typedef struct _swPrefDialog {
     spComponent alt_ctrl_swap_button;
     spComponent scroll_left_by_wheel_down_button;
     spComponent use_tool_bar_button;
+    spComponent quit_prompt_button;
     
     spComponent display_tab;
     spComponent display_meter_button;
