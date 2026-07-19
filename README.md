@@ -24,6 +24,16 @@
 
 変更履歴はコミットログを参照してください。
 
+## リリース方法
+
+`v` で始まるタグを push すると、GitHub Actions がビルドして
+`spwave-<タグ>-win-x64.zip` を Releases に自動で公開します。
+
+```powershell
+git tag v0.9.0-1
+git push cartooh v0.9.0-1
+```
+
 ## ライセンス
 
 - spwave 本体: LGPL v3([spwave/LICENSE.txt](spwave/LICENSE.txt))
