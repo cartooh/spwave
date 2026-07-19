@@ -1,6 +1,7 @@
-# --- Third-party spLibs headers/libraries (downloaded, not part of this source) ---
+# --- Third-party spLibs headers/libraries (downloaded by setup-deps.ps1) ---
 /include/
 /lib/
+/.deps/
 
 # --- Build outputs ---
 spwave/x64/

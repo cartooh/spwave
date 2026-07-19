@@ -9,6 +9,17 @@ spwave は音声ファイルエディタ(作者: 板野秀樹氏 / 名城大学)
 - Visual Studio(v143 ツールセット = VS2022 相当の MSVC。VS2026 でも v143 コンポーネントを追加すれば可)
 - spLibs のバイナリライブラリ(下記)
 
+## クイックスタート
+
+```powershell
+.\setup-deps.ps1     # spLibs のダウンロード・展開・配置(下記1と3を自動実行)
+MSBuild.exe spwave\spwave.vcxproj /p:Configuration=Release /p:Platform=x64
+```
+
+取得し直す場合は `.\setup-deps.ps1 -Clean`、バージョン変更は `-SpBaseVer` などの
+パラメータで指定(詳細は `Get-Help .\setup-deps.ps1`)。zip は `.deps\` に
+キャッシュされる。以下は手動で行う場合の手順。
+
 ## 1. spLibs バイナリの取得と配置
 
 公式アーカイブ https://www-ie.meijo-u.ac.jp/~banno/archive/ から以下を取得する
